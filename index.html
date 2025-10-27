@@ -2,46 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="styleshett"   href="style.css">
+  
   <title>Four card feature section</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <section class="container">
-    <div class="hero">
-      <h2>Reliable, efficient delivery</h2>
-      <h1>Powered by Technology</h1>
-      <p>
-        Our Artificial Intelligence powered tools use millions of project data points 
-        to ensure that your project is successful
-      </p>
-    </div>
+  <section class="containner" style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top:60px ;"  >
+  <div class="hero">
+  <h2 style="text-align: center;">Reliable, efficient delivery</h2>
+   <h1 style="text-align: center; color:gray; font-weight:bold; width: 800px; height:50px;"> Powered by Technology</h1>
 
-    <div class="cards">
-      <div class="card supervisor">
-        <h2>Supervisor</h2>
-        <p>Monitors activity to identify project roadblocks</p>
-        <img src="images/icon-supervisor.svg" alt="Supervisor">
-      </div>
+  <P style="text-align: center;"> Our Artificial Intelligence powered tools use millions of project data points <br>
+  to ensure that your project is successful</P>
+   </div>
 
-      <div class="card team-builder">
-        <h2>Team Builder</h2>
-        <p>Scans our talent network to create the optimal team for your project</p>
-        <img src="images/icon-team-builder.svg" alt="Team Builder">
-      </div>
-
-      <div class="card karma">
-        <h2>Karma</h2>
-        <p>Regularly evaluates our talent to ensure quality</p>
-        <img src="images/icon-karma.svg" alt="Karma">
-      </div>
-
-      <div class="card calculator">
-        <h2>Calculator</h2>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-        <img src="images/icon-calculator.svg" alt="Calculator">
-      </div>
-    </div>
-  </section>
+   <div class="cards" style="display: flex; justify-content:space-between; align-items: center; text-align: center; gap:30px; margin-top:60px ;">
+    <div class="card1" style="display: flex; flex-direction: column;justify-content:space-between; align-items: center; gap:30px; border:1px; box-shadow:1px 4px gray ;border-radius:30px; width: 400px;">
+  <h2 style="text-align: center; color:gray; font-weight:bold; width: 200px; height:50px;">Supervisor</h2>
+  <P style="text-align: center;">Monitors activity to identify <br> project roadblocks</P>
+  <img src="images/icon-supervisor.svg" alt="icon-supervisor.svg" >
+  </div>
+  <div class="card2" style="height: auto;  display: flex; flex-direction: column;justify-content:space-between; align-items: center; gap:30px; border:1px; box-shadow:1px 4px gray ;border-radius:30px; width: 400px;">
+  <h2 style="text-align: center; color:gray; font-weight:bold; width: 200px; height:50px;">Team Builder</h2>
+  <P style="text-align: center;">Scans our talent network to create the optimal team for your project</P>
+<img src="images/icon-team-builder.svg" alt="icon-team-builder.svg">
+</div>
+ <div class="card3" style="display: flex; flex-direction: column;justify-content:space-between; align-items: center; gap:30px; border:1px; box-shadow:1px 4px gray ; border-radius:30px; width: 400px;">
+  <h2 style="text-align: center; color:gray; font-weight:bold; width: 200px; height:50px;">Karma</h2>
+  <P style="text-align: center;"> Regularly evaluates our talent to ensure quality</P>
+  <img src="images/icon-karma.svg" alt="icon-karma.svg">
+</div>
+ <div class="card4" style="display: flex; flex-direction: column;justify-content:space-between; align-items: center; gap:30px; border:1px; box-shadow:1px 4px gray ; border-radius:30px; width: 400px;">
+  <h2 style="text-align: center; color:gray; font-weight:bold; width: 200px; height:50px;">Calculator</h2>
+   <P style="text-align: center;">Uses data from past projects to provide better delivery estimates</P>
+   <img src="images/icon-calculator.svg" alt="icon-calculator.svg">
+  </div>
+  </div>
+</section>
+  
+  <footer style="margin-top:300px;">
+    <p class="attribution" style="margin-bottom: 200px;">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
 </body>
 </html>
